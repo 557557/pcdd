@@ -1,0 +1,127 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>幸运28</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />    
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=yes"/>
+	<meta name="msapplication-tap-highlight" content="no" />
+	<link rel="stylesheet" href="./css/css.css" type="text/css" />
+	<script type="text/javascript">
+		var browser = {
+		versions: function () {
+		var u = navigator.userAgent, app = navigator.appVersion;
+		return { //移动终端浏览器版本信息 
+		ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端 
+		android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器 
+		iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器 
+		iPad: u.indexOf('iPad') > -1, //是否iPad 
+		};
+		}(),
+		}
+		if (browser.versions.iPhone || browser.versions.iPad || browser.versions.ios) {
+			window.location.href = "./ios.html";
+		}
+		
+	</script>
+	<link rel="stylesheet" href="./css/css.css" type="text/css" />	
+       <style>
+		.bui{display:inline-block;width:98%;height:2rem;line-height:2rem;margin-top:.5rem;text-align:center;margin:0 auto;border: 1px solid #A9B1B3;border-radius:20px;}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="log"><img src="./img/logo.png"><span class="tel">安卓端</span><!-- <span class="http">http://www.pc86.net</span> --></div>
+		<div class="banner"><img src="./img/top.png"></div>
+	</header>
+	<article>
+		<div class="top">
+			<img src="./img/er.png">
+			<span class="saomiao">扫描二维码下载客户端</span>
+			<a onclick="test()"><img src="./img/xz.png"></a>
+		</div>
+
+		<div class="div2">
+			<div class="left"><img src="./img/sy.png"></div>
+			<div class="right">
+				<p class="p1"><img src="./img/tpzs.png"></p>
+				<p class="p2">
+					<img src="./img/bj28.png">
+					<img src="./img/jnd28.png">
+					<img src="./img/xjp28.png">
+					<img src="./img/k3.png">
+					<img src="./img/pk10.png">
+				</p>
+			</div>
+		</div>
+
+		<div class="div3">
+			<p class="p1"><img src="./img/zs.png"></p>
+			<p class="p2">游戏大厅 高速服务器，玩得更尽兴</p>
+		</div>
+
+		<div class="div4">
+			<img class="img1" src="./img/font3.png">
+			<img class="img2" src="./img/cz.png">
+		</div>
+
+		<div class="div5">
+			<img class="img1" src="./img/font4.png" >
+			<img class="img2" src="./img/yx.png">
+		</div>
+	</article>
+	<footer>
+		<div class="top">
+			<p><img src="./img/qq.png">客服QQ：1599999967</p>
+			<p><img src="./img/weixin.png">官方微信：klcp28</p>
+		</div>
+		<div class="bottom">
+			Copyright © https://o7qjo6uyq.qnssl.com/mPublic/iosapp/ios/ioc-bj.png开发网络有限公司
+		</div>
+	</footer>
+	<div class="mark" id="mask"></div>
+	<div class="tishi" id="tishi"><img src="./img/tishi2.png"></div>
+	<div class="pingguo" id="pingguo"><img src="./img/anzhuo.png"></div>
+	<script src="./js/jquery.min.js"></script>
+	</script>
+
+
+</body>
+<script>
+	 
+  
+
+ 
+    var ua = navigator.userAgent.toLowerCase(); 
+
+    
+
+
+    function test()
+    {
+    	if(ua.indexOf("micromessenger") > -1)
+	    {  
+	        $("#mask").css("display","block");
+	        $("#pingguo").css("display","block");
+	        $("body").css("z-index","-1");
+	    }
+	    else if(ua.indexOf("safari") > -1)
+	    {
+	    	window.location.href="http://28capp.oss-cn-shanghai.aliyuncs.com/%E5%B9%B8%E8%BF%9028/xy28.apk";
+	    }
+	    else
+	    {
+	    	$("#mask").css("display","block");
+	        $("#tishi").css("display","block");
+	        $("body").css("z-index","-1");
+	    }
+    }
+
+</script>
+
+
+</html>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1263415076'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1263415076%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
